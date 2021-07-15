@@ -16,9 +16,16 @@ public class Primeiro {
 		
 		
 		Endereco endereco = new Endereco();
-		//endereco.cep = "00000-000";
-		
+		 endereco.cep = "00000-000";
+		 endereco.endereco = "skafsklafk";
+		 endereco.numero = "sdsa";
+		 endereco.complemento = "sdsa";
+		 endereco.bairro = "dsad";
+		 endereco.estado = "dsa";
+		 
+		 
 		Cliente cliente = new Cliente();
+		
 		try {
 			cliente.adicionadoEndereco(endereco);	
 			System.out.println("Endereço adicionado com sucesso! ");
