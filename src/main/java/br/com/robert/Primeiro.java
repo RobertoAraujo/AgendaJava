@@ -21,7 +21,7 @@ public class Primeiro {
 		 endereco.numero = "sdsa";
 		 endereco.complemento = "sdsa";
 		 endereco.bairro = "dsad";
-		 endereco.estado = "dsa";
+		// endereco.estado = "dsa";
 		 
 		 
 		Cliente cliente = new Cliente();
